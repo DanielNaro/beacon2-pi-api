@@ -47,7 +47,7 @@ You should have installed:
 If you are using a build with all the services in the same cluster, you can use:
 
 ```bash
-docker compose up -d --build
+docker compose -p beacon2-pi-api up -d --build
 ```
 
 #### Up the containers (with services in independent servers)
